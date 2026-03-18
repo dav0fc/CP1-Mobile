@@ -1,3 +1,5 @@
+import EntradaDeTexto from "./components/EntradaDeTexto";
+import Input from "./components/EntradaDeTexto";
 import "./styles/global.css"
 import { Text, View, TextInput, TouchableOpacity, Image, Pressable } from "react-native";
  
@@ -12,12 +14,7 @@ export default function App() {
       <Text className="text-2xl font-bold text-white mb-6 text-center">
         Bem-vindo ao seu projeto React Native + NativeWind
       </Text>
-
-      <TextInput
-        className="w-full border border-green-200 rounded-lg px-4 py-8 mb-4 bg-white text-red-800"
-        placeholder="Digite algo..."
-      />
-
+      <EntradaDeTexto/>
       <Pressable className="bg-white rounded-lg px-6 py-3">
         <Text className="text-teal-600 text-base font-semibold">Enviar</Text>
       </Pressable>
