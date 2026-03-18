@@ -5,18 +5,21 @@ import { Text, View, TextInput, TouchableOpacity, Image, Pressable } from "react
  
 export default function App() {
   return (
-    <View className="flex-1 items-center justify-center bg-teal-900 px-4">
+    <View className="flex-1 items-center justify-center bg-[#ffe] first:bg-[url('./assets/fade.png')] bg-top bg-repeat-x px-4">
       <Image
         source={require("./assets/react-icon.png")}
         className="w-40 h-40 rounded-full border-4 border-white opacity-70 mb-10"
       />
-
-      <Text className="text-2xl font-bold text-white mb-6 text-center">
-        Bem-vindo ao seu projeto React Native + NativeWind
+      <Text className="text-2xl text-red-800 font-normal m-1 text-center">
+      Bem vindo ao Chan da 3ESPV
       </Text>
       <EntradaDeTexto/>
-      <Pressable className="bg-white rounded-lg px-6 py-3">
-        <Text className="text-teal-600 text-base font-semibold">Enviar</Text>
+      <Pressable className="bg-transparent">
+        <Text className="text-red-800 font-normal underline m-1 text-center">Esqueci minha senha</Text>
+      </Pressable>
+
+      <Pressable className="bg-red-800 rounded-lg px-6 py-3 m-4">
+        <Text className="text-[#fafafa] text-2xl font-semibold m-1 text-center">SING UP</Text>
       </Pressable>
     </View>
   );
