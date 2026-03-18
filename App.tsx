@@ -1,5 +1,5 @@
 import "./styles/global.css"
-import { Text, View, TextInput, TouchableOpacity, Image } from "react-native";
+import { Text, View, TextInput, TouchableOpacity, Image, Pressable } from "react-native";
  
 export default function App() {
   return (
@@ -18,9 +18,9 @@ export default function App() {
         placeholder="Digite algo..."
       />
 
-      <TouchableOpacity className="bg-white rounded-lg px-6 py-3">
+      <Pressable className="bg-white rounded-lg px-6 py-3">
         <Text className="text-teal-600 text-base font-semibold">Enviar</Text>
-      </TouchableOpacity>
+      </Pressable>
     </View>
   );
 }
