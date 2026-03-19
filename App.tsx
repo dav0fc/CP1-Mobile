@@ -28,6 +28,8 @@ const toggleSwitch = () => setIsEnabled(previousState => !previousState);
      className="flex flex-row-reverse"
      onValueChange={toggleSwitch}
      value={isEnabled}
+     thumbColor="#991b1b"
+     trackColor = {{false: '#8a8a8a', true: '#111111'}}
      />
       <EntradaDeTexto login={isEnabled ? 'Seu Numero' : 'Seu Email'}/>
     </View>
