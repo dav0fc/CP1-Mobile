@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "4cha-da-sala",
-    "slug": "nativeWind-app-initial",
+    "name": "4chan-da-sala",
+    "slug": "4chan-da-sala",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/4CHAN da sala.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
