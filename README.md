@@ -25,6 +25,10 @@ Atualmente, o projeto consiste em uma tela de login, com as seguintes funcionali
 * Botão de cadastro (Sign Up)
 * Interface estilizada com NativeWind
 
+## Telas
+
+![Tela 1](https://github.com/dav0fc/CP1-Mobile/blob/main/assets/Screenshot_1773985458.png)
+
 ## Tecnologias Utilizadas
 
 * React Native: desenvolvimento mobile
